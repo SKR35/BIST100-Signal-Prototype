@@ -1,7 +1,6 @@
 import hashlib
 import json
 
-# --- determinism guardrails ---
 import os
 import random
 import sqlite3
@@ -29,6 +28,7 @@ from .reporting import log_run_to_db, plot_signals_scatter, write_rules_daily
 from .signals import build_signal_table, select_top_signals_per_day
 from .stops import apply_atr_stop
 
+# --- determinism guardrails ---
 os.environ["PYTHONHASHSEED"] = "0"
 random.seed(0)
 np.random.seed(0)
