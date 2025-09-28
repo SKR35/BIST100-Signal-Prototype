@@ -1,0 +1,7 @@
+pandas>=2.0
+numpy>=1.24
+matplotlib>=3.7
+python-dateutil>=2.8
+pre-commit>=3.6
+ruff>=0.5
+black>=24.0

@@ -1,0 +1,16 @@
+# venv
+.venv/
+# Python
+__pycache__/
+*.pyc
+# Data/outputs
+bist100_prices.db
+.input/
+.output/
+.Archive/
+*.csv
+*.png
+# OS/IDE
+.DS_Store
+.idea/
+.vscode/
