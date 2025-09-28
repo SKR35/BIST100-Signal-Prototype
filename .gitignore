@@ -14,3 +14,4 @@ bist100_prices.db
 .DS_Store
 .idea/
 .vscode/
+*.egg-info/
