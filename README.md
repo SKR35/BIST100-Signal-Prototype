@@ -1,5 +1,5 @@
 # BIST100 Signal Prototype
-A minimal research prototype for generating, backtesting, and reporting daily trading signals on BIST100 tickers. The baseline strategy holds each selected position for 3 trading days, uses intraday confirmations, and includes portfolio sizing, fees/slippage, and CPI (TUFE) deflation for “real” performance.
+A minimal research prototype for generating, backtesting and reporting daily trading signals on BIST100 tickers. The baseline strategy holds each selected position for 3 trading days, uses intraday confirmations, and includes portfolio sizing, fees/slippage, and CPI (TUFE) deflation for “real” performance.
 
 ## Highlights
 
